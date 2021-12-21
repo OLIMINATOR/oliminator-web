@@ -3,8 +3,8 @@
     transition: .2s;
     &:hover{
         background: linear-gradient(90deg, rgba(254,101,4,1) 19%, rgba(230,68,114,1) 63%, rgba(202,65,201,1) 86%);
-        background-clip: text;
-        color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         filter: drop-shadow(5px 5px 4px var(--instagram2));
     }
 }
@@ -12,8 +12,8 @@
     transition: .2s;
     &:hover{
         background: radial-gradient(circle, rgba(88,101,242,1) 19%, rgba(72,84,217,1) 63%, rgba(33,5,219,1) 86%);
-        background-clip: text;
-        color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         filter: drop-shadow(5px 5px 4px #42227c);
     }
 }
@@ -21,8 +21,8 @@
     transition: .2s;
     &:hover{
         background: linear-gradient(90deg, rgba(241,71,124,1) 19%, rgba(242,0,76,1) 63%, rgba(242,0,110,1) 86%);
-        background-clip: text;
-        color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         filter: drop-shadow(5px 5px 4px #940c89);
     }
 }
@@ -30,8 +30,8 @@
     transition: .2s;
     &:hover{
         background: linear-gradient(90deg, rgba(234,50,35,1) 19%, rgba(242,0,76,1) 63%, rgba(214,22,22,1) 86%);
-        background-clip: text;
-        color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         filter: drop-shadow(5px 5px 4px #c52626);
     }
 }
@@ -39,8 +39,8 @@
     transition: .2s;
     &:hover{
         background: linear-gradient(90deg, rgb(7, 56, 129) 1%, rgba(107,32,117,1) 100%);
-        background-clip: text;
-        color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         filter: drop-shadow(5px 5px 4px #3d3a90);
     }
 }

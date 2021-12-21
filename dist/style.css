@@ -198,8 +198,8 @@ a {
 .fa-instagram:hover {
   background: -webkit-gradient(linear, left top, right top, color-stop(19%, #fe6504), color-stop(63%, #e64472), color-stop(86%, #ca41c9));
   background: linear-gradient(90deg, #fe6504 19%, #e64472 63%, #ca41c9 86%);
-  background-clip: text;
-  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(5px 5px 4px var(--instagram2));
           filter: drop-shadow(5px 5px 4px var(--instagram2));
 }
@@ -211,8 +211,8 @@ a {
 
 .fa-discord:hover {
   background: radial-gradient(circle, #5865f2 19%, #4854d9 63%, #2105db 86%);
-  background-clip: text;
-  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(5px 5px 4px #42227c);
           filter: drop-shadow(5px 5px 4px #42227c);
 }
@@ -225,8 +225,8 @@ a {
 .fa-tiktok:hover {
   background: -webkit-gradient(linear, left top, right top, color-stop(19%, #f1477c), color-stop(63%, #f2004c), color-stop(86%, #f2006e));
   background: linear-gradient(90deg, #f1477c 19%, #f2004c 63%, #f2006e 86%);
-  background-clip: text;
-  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(5px 5px 4px #940c89);
           filter: drop-shadow(5px 5px 4px #940c89);
 }
@@ -239,8 +239,8 @@ a {
 .fa-youtube:hover {
   background: -webkit-gradient(linear, left top, right top, color-stop(19%, #ea3223), color-stop(63%, #f2004c), color-stop(86%, #d61616));
   background: linear-gradient(90deg, #ea3223 19%, #f2004c 63%, #d61616 86%);
-  background-clip: text;
-  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(5px 5px 4px #c52626);
           filter: drop-shadow(5px 5px 4px #c52626);
 }
@@ -253,8 +253,8 @@ a {
 .fa-github:hover {
   background: -webkit-gradient(linear, left top, right top, color-stop(1%, #073881), to(#6b2075));
   background: linear-gradient(90deg, #073881 1%, #6b2075 100%);
-  background-clip: text;
-  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(5px 5px 4px #3d3a90);
           filter: drop-shadow(5px 5px 4px #3d3a90);
 }
