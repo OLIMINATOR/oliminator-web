@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-weight: 800;
+    margin: 0;
+}
+p {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+i {
+    font-size: 1.5rem;
+    margin: 0 .4rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+a {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;    
+    text-decoration: none;
+}
+
+@media screen and (max-width:575px) {
+.profile-text{
+    text-align: center;
+}
+}
+
+@media screen and (max-width:575px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:869px) {
+    a {
+        font-size: 1.2rem;
+    }
+    i{
+        font-size: 1.2rem;
+    }
+}

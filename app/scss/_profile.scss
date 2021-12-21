@@ -1,0 +1,114 @@
+.logo {
+    margin: 0;
+    width: 150px;
+    //border-color: white;
+    //border-style: dashed;
+}
+
+@media screen and (max-width:575px) {
+    .logo {
+        width: 120px;
+    }
+}
+
+.profile-text {
+    margin: 1rem;
+    //border-color: white;
+    //border-style: dashed;
+}
+
+.subtitle{
+    cursor: default;
+    transition: .2s;
+    &:hover{
+        color: var(--gray);
+    }
+}
+
+.title{
+    cursor: default;
+    transition: .2s;
+
+    &:hover {
+        background: linear-gradient(90deg, rgba(254,101,4,1) 30%, rgba(246,22,68,1) 52%, rgba(255,38,83,1) 69%, rgba(255,53,103,1) 87%, rgba(255,55,136,1) 100%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(0 0 0.8rem var(--crimson));
+    } 
+}
+
+.title-uwu{
+    cursor: default;
+    transition: .2s;
+
+    &:hover {
+        background: linear-gradient(90deg, rgb(19, 180, 255) 30%, rgba(246,22,68,1) 52%, rgba(255,38,83,1) 69%, rgba(255,53,103,1) 87%, rgba(255,55,136,1) 100%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(0 0 0.8rem var(--crimson));
+    } 
+}
+
+.title-kaku{
+    cursor: default;
+    transition: .2s;
+
+    &:hover {
+        background: linear-gradient(90deg, rgb(123, 255, 0) 30%, rgba(246,22,68,1) 52%, rgb(139, 39, 0) 69%, rgba(255,53,103,1) 87%, rgb(136, 85, 2) 100%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(0 0 0.8rem var(--crimson));
+    } 
+}
+
+.title-404{
+    cursor: default;
+    transition: .2s;
+    font-size: 10rem;
+    
+
+    &:hover {
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(253,29,79,1) 50%, rgba(255,89,0,1) 100%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(0 0 0.8rem var(--crimson));
+    } 
+} 
+
+.title-resources{
+    cursor: default;
+    transition: .2s;
+    
+
+    &:hover {
+        background: linear-gradient(90deg, rgba(21,0,255,1) 0%, rgba(29,207,253,1) 50%, rgba(0,255,192,1) 100%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(0 0 0.8rem var(--blue));
+    } 
+}
+
+.title-kontakt{
+    cursor: default;
+    transition: .2s;
+    
+
+    &:hover {
+        background: linear-gradient(90deg, rgba(4,236,0,1) 0%, rgba(0,255,175,1) 100%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(0 0 0.8rem #029500);
+    } 
+}
+
+
+.email{
+    cursor: pointer;
+    font-size: 1.7rem;
+    &:hover {
+        background: linear-gradient(90deg, rgba(0,108,236,1) 0%, rgba(0,151,186,1) 100%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(0 0 0.8rem #006695);
+    } 
+}

@@ -1,0 +1,129 @@
+// IKONKY
+.fa-instagram {
+    transition: .2s;
+    &:hover{
+        background: linear-gradient(90deg, rgba(254,101,4,1) 19%, rgba(230,68,114,1) 63%, rgba(202,65,201,1) 86%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(5px 5px 4px var(--instagram2));
+    }
+}
+.fa-discord {
+    transition: .2s;
+    &:hover{
+        background: radial-gradient(circle, rgba(88,101,242,1) 19%, rgba(72,84,217,1) 63%, rgba(33,5,219,1) 86%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(5px 5px 4px #42227c);
+    }
+}
+.fa-tiktok {
+    transition: .2s;
+    &:hover{
+        background: linear-gradient(90deg, rgba(241,71,124,1) 19%, rgba(242,0,76,1) 63%, rgba(242,0,110,1) 86%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(5px 5px 4px #940c89);
+    }
+}
+.fa-youtube {
+    transition: .2s;
+    &:hover{
+        background: linear-gradient(90deg, rgba(234,50,35,1) 19%, rgba(242,0,76,1) 63%, rgba(214,22,22,1) 86%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(5px 5px 4px #c52626);
+    }
+}
+.fa-github {
+    transition: .2s;
+    &:hover{
+        background: linear-gradient(90deg, rgb(7, 56, 129) 1%, rgba(107,32,117,1) 100%);
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(5px 5px 4px #3d3a90);
+    }
+}
+
+// NAVBAR BUTTONS
+.nav-btn{
+    background-color: var(--orange);
+    margin: 2rem .8rem;
+    border-radius: .7rem;
+    border-style: none;
+    padding: .7rem .9rem;
+    transition: .2s;
+
+    &:hover{
+        background-color: var(--orange-darker);
+        filter: drop-shadow(5px 5px 4px #c52626);
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+}
+
+// HOME TLAČÍTKO
+.back-home{
+    background-color: var(--orange);
+    margin: .5rem;
+    border-radius: .7rem;
+    border-style: none;
+    padding: .7rem .7rem;
+    transition: .2s;
+
+    &:hover{
+        background-color: var(--orange-darker);
+        filter: drop-shadow(5px 5px 4px #c52626);
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+}
+
+.resources-btn{
+    button{
+        padding: .5rem 2rem;
+        border-style: none;
+        border-radius: .2rem;
+        margin: .5rem .7rem;
+        transition: .3s;
+        
+        &:hover {
+            border-radius: .6rem;  
+            filter: drop-shadow(5px 5px 4px var(--red));
+        }
+    }
+
+    .btn-clickbiat-pack{
+        background-color: var(--orange-darker);
+    }
+
+    .btn-pixelart{
+        background-color: var(--blue);
+        &:hover {
+            filter: drop-shadow(5px 5px 4px var(--blue-darker));
+        }
+    }
+
+    .btn-mcserver{
+        background-color: var(--green2);
+        &:hover {
+            filter: drop-shadow(5px 5px 4px var(--green2-darker));
+        }
+    }
+}
+
+@media screen and (max-width:869px) {
+    button{
+        padding: .3rem 1rem;
+    }
+}
