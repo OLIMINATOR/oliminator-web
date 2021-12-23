@@ -48,7 +48,7 @@ header {
 }
 
 .resources-btn {
-  height: 20vh;
+  height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,9 +315,8 @@ a {
 }
 
 .resources-btn button:hover {
-  border-radius: .6rem;
-  -webkit-filter: drop-shadow(5px 5px 4px var(--red));
-          filter: drop-shadow(5px 5px 4px var(--red));
+  -webkit-filter: drop-shadow(1px 1px 8px var(--red));
+          filter: drop-shadow(1px 1px 8px var(--red));
 }
 
 .resources-btn .btn-clickbiat-pack {
@@ -329,8 +328,8 @@ a {
 }
 
 .resources-btn .btn-pixelart:hover {
-  -webkit-filter: drop-shadow(5px 5px 4px var(--blue-darker));
-          filter: drop-shadow(5px 5px 4px var(--blue-darker));
+  -webkit-filter: drop-shadow(1px 1px 8px var(--blue));
+          filter: drop-shadow(1px 1px 8px var(--blue));
 }
 
 .resources-btn .btn-mcserver {
@@ -338,8 +337,35 @@ a {
 }
 
 .resources-btn .btn-mcserver:hover {
-  -webkit-filter: drop-shadow(5px 5px 4px var(--green2-darker));
-          filter: drop-shadow(5px 5px 4px var(--green2-darker));
+  -webkit-filter: drop-shadow(1px 1px 8px var(--green2));
+          filter: drop-shadow(1px 1px 8px var(--green2));
+}
+
+.resources-btn .btn-mcconfigs {
+  background-color: var(--quadark);
+}
+
+.resources-btn .btn-mcconfigs:hover {
+  -webkit-filter: drop-shadow(1px 1px 8px var(--quadark));
+          filter: drop-shadow(1px 1px 8px var(--quadark));
+}
+
+.resources-btn .btn-mcweb {
+  background-color: var(--blue2);
+}
+
+.resources-btn .btn-mcweb:hover {
+  -webkit-filter: drop-shadow(1px 1px 8px var(--blue2));
+          filter: drop-shadow(1px 1px 8px var(--blue2));
+}
+
+.resources-btn .btn-mcplanet {
+  background-color: var(--lime);
+}
+
+.resources-btn .btn-mcplanet:hover {
+  -webkit-filter: drop-shadow(1px 1px 8px var(--lime));
+          filter: drop-shadow(1px 1px 8px var(--lime));
 }
 
 @media screen and (max-width: 869px) {
@@ -359,6 +385,10 @@ a {
   --green2: #53b000;
   --green2-darker: #53b000;
   --green: #029500;
+  --quadark: #002d36;
+  --aquadark-darker: #001a1f;
+  --blue2: #6554ff;
+  --lime: #00c756;
   --discord: #5865f2;
   --instagram1: #cf0057;
   --instagram2: #8a2bc9;

@@ -98,8 +98,7 @@
         transition: .3s;
         
         &:hover {
-            border-radius: .6rem;  
-            filter: drop-shadow(5px 5px 4px var(--red));
+            filter: drop-shadow(1px 1px 8px var(--red));
         }
     }
 
@@ -110,14 +109,32 @@
     .btn-pixelart{
         background-color: var(--blue);
         &:hover {
-            filter: drop-shadow(5px 5px 4px var(--blue-darker));
+            filter: drop-shadow(1px 1px 8px var(--blue));
         }
     }
 
     .btn-mcserver{
         background-color: var(--green2);
         &:hover {
-            filter: drop-shadow(5px 5px 4px var(--green2-darker));
+            filter: drop-shadow(1px 1px 8px var(--green2));
+        }
+    }
+    .btn-mcconfigs{
+        background-color: var(--quadark);
+        &:hover {
+            filter: drop-shadow(1px 1px 8px var(--quadark));
+        }
+    }
+    .btn-mcweb{
+        background-color: var(--blue2);
+        &:hover {
+            filter: drop-shadow(1px 1px 8px var(--blue2));
+        }
+    }
+    .btn-mcplanet{
+        background-color: var(--lime);
+        &:hover {
+            filter: drop-shadow(1px 1px 8px var(--lime));
         }
     }
 }
