@@ -1,0 +1,8 @@
+@use "../util" as *;
+
+.sitemap {
+    margin-top: rem(120);
+    a {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,179 @@
+@use "../util" as *;
+
+//HEADER
+.home-header {
+    margin-top: rem(80);
+    @include breakpoint(medium) {
+        margin-top: rem(280);
+    }
+    //border-color: white;
+    //border-style: dashed;
+    .header-text {
+        display: block;
+        h1 {
+            background: linear-gradient(
+                100deg,
+                rgba(254, 101, 4, 1) 10%,
+                rgba(246, 22, 68, 1) 20%,
+                rgba(255, 38, 83, 1) 30%,
+                rgba(255, 53, 103, 1) 45%,
+                rgba(255, 55, 136, 1) 50%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            font-size: rem(25);
+        }
+    }
+    .header-buttons {
+        margin-top: rem(10);
+        margin-left: rem(5);
+        display: flex;
+        justify-content: flex-start;
+        //border-color: white;
+        //border-style: dashed;
+    }
+    a {
+        margin-right: rem(30);
+    }
+    i {
+        color: white;
+        font-size: rem(35);
+        transition-duration: 250ms;
+        &:hover {
+            transform: translateY(-4px);
+        }
+    }
+    .fa-github:hover {
+        background: linear-gradient(
+            90deg,
+            rgb(7, 56, 129) 1%,
+            rgba(107, 32, 117, 1) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .fa-youtube:hover {
+        background: linear-gradient(
+            90deg,
+            rgba(234, 50, 35, 1) 19%,
+            rgba(242, 0, 76, 1) 63%,
+            rgba(214, 22, 22, 1) 86%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .fa-instagram:hover {
+        background: linear-gradient(
+            90deg,
+            rgba(254, 101, 4, 1) 19%,
+            rgba(230, 68, 114, 1) 63%,
+            rgba(202, 65, 201, 1) 86%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .fa-tiktok:hover {
+        background: linear-gradient(
+            90deg,
+            rgba(241, 71, 124, 1) 19%,
+            rgba(242, 0, 76, 1) 63%,
+            rgba(242, 0, 110, 1) 86%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .fa-discord:hover {
+        background: radial-gradient(
+            circle,
+            rgba(88, 101, 242, 1) 19%,
+            rgba(72, 84, 217, 1) 63%,
+            rgba(33, 5, 219, 1) 86%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+//WORK
+.moja-praca {
+    margin-top: rem(335);
+    @include breakpoint(medium) {
+        margin-top: rem(435);
+    }
+    h2 {
+        text-shadow: 4px 4px 0px #2c2a2a;
+    }
+}
+
+.card-container {
+    margin-top: rem(55);
+    display: flex;
+    row-gap: rem(50);
+    column-gap: rem(50);
+    flex-wrap: wrap;
+    .card {
+        flex: 1 0 30%; /* explanation below */
+        padding: rem(40) rem(40);
+        border-radius: rem(8);
+        background-color: var(--cards);
+        border-color: var(--grayer);
+        border-style: solid;
+        border-width: rem(1);
+        transition: 0.2s;
+        &:hover {
+            transform: translateY(rem(-15));
+        }
+        h3 {
+            margin-top: rem(18);
+        }
+        .card-image-container {
+            &:hover {
+                img {
+                    object-position: bottom;
+                }
+            }
+        }
+        img {
+            width: 800px;
+            height: 150px;
+            border-radius: rem(8);
+            object-fit: cover;
+            object-position: top;
+            -webkit-user-drag: none;
+            overflow: hidden;
+            user-select: none;
+            pointer-events: none;
+            vertical-align: middle;
+            transition: 0.5s;
+        }
+        button {
+            margin-top: rem(18);
+            width: 100%;
+            height: rem(40);
+            font-size: rem(20);
+            cursor: pointer;
+            background-color: var(--black);
+            color: var(--white);
+            border: none;
+            border-radius: 8px;
+            transition: all 0.2s;
+            border-color: var(--grayer);
+            border-style: solid;
+            border-width: rem(1);
+            i {
+                transform: translateX(rem(8));
+                transition: 0.2s;
+                color: var(--white);
+            }
+            &:hover {
+                i {
+                    transform: translateX(rem(15));
+                }
+            }
+        }
+    }
+}
+
+/* From uiverse.io by @Mike11jr */

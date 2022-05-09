@@ -1,0 +1,39 @@
+@use "../util" as *;
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--black);
+    .nav-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        @include breakpoint(medium) {
+            justify-content: space-around;
+        }
+        //border-color: white;
+        //border-style: dashed;
+        ul {
+            align-self: flex-end;
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            margin-left: 0;
+            li {
+                margin-left: rem(10);
+                margin-right: rem(10);
+                font-weight: 400;
+                font-size: rem(20);
+            }
+        }
+        .nav-logo {
+            text-indent: -9999px;
+            display: none;
+            @include breakpoint(medium) {
+                display: block;
+            }
+        }
+    }
+}
