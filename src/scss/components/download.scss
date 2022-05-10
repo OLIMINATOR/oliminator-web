@@ -19,7 +19,7 @@
             text-align: center;
             line-height: rem(40);
             padding: rem(15) rem(20);
-            background-color: hsl(0, 3%, 21%);
+            background-color: var(--download-info);
             border-radius: rem(8) rem(8) 0 0;
             border-color: var(--grayer);
             border-style: solid;
@@ -31,7 +31,7 @@
         }
         .download-button {
             padding: rem(8) rem(20);
-            background-color: hsl(0, 2%, 17%);
+            background-color: var(--download-button);
             border-radius: 0 0 rem(8) rem(8);
             text-align: center;
             border-color: var(--grayer);
