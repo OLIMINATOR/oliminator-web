@@ -1,0 +1,22 @@
+@use "../util" as *;
+
+.minecraft-header {
+    margin-top: rem(120);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .header-text {
+        order: -1;
+    }
+    .minecraft-buttons {
+        button {
+            margin-right: rem(25);
+            background-color: #f91b48;
+        }
+    }
+}
+
+.minecraft-settings {
+    margin-top: rem(320);
+}

@@ -1,6 +1,24 @@
 @use "../util" as *;
 
 //HEADER
+.header-text {
+    display: block;
+    h1 {
+        background: linear-gradient(
+            100deg,
+            rgba(254, 101, 4, 1) 10%,
+            rgba(246, 22, 68, 1) 20%,
+            rgba(255, 38, 83, 1) 30%,
+            rgba(255, 53, 103, 1) 45%,
+            rgba(255, 55, 136, 1) 50%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p {
+        font-size: rem(25);
+    }
+}
 .home-header {
     margin-top: rem(80);
     @include breakpoint(medium) {
@@ -8,24 +26,6 @@
     }
     //border-color: white;
     //border-style: dashed;
-    .header-text {
-        display: block;
-        h1 {
-            background: linear-gradient(
-                100deg,
-                rgba(254, 101, 4, 1) 10%,
-                rgba(246, 22, 68, 1) 20%,
-                rgba(255, 38, 83, 1) 30%,
-                rgba(255, 53, 103, 1) 45%,
-                rgba(255, 55, 136, 1) 50%
-            );
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        p {
-            font-size: rem(25);
-        }
-    }
     .header-buttons {
         margin-top: rem(10);
         margin-left: rem(5);
@@ -101,9 +101,6 @@
     margin-top: rem(335);
     @include breakpoint(medium) {
         margin-top: rem(435);
-    }
-    h2 {
-        text-shadow: 4px 4px 0px #2c2a2a;
     }
 }
 

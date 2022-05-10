@@ -39,6 +39,8 @@ h1 {
     }
 }
 h2 {
+    text-shadow: 4px 4px 0px #2c2a2a;
+
     color: var(--white);
     font-weight: 800;
     font-size: rem(50);
@@ -50,6 +52,11 @@ h3 {
 }
 p {
     color: var(--gray);
+    font-size: rem(20);
+}
+
+code {
+    color: var(--grayer);
     font-size: rem(20);
 }
 

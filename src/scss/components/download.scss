@@ -1,0 +1,47 @@
+@use "../util" as *;
+
+.downloads {
+    margin-top: rem(80);
+    display: flex;
+    row-gap: rem(50);
+    column-gap: rem(50);
+    flex-wrap: wrap;
+    //border-color: white;
+    //border-style: dashed;
+    .file {
+        flex: 1 0 30%; /* explanation below */
+        border-radius: rem(8);
+        transition: 0.2s;
+        &:hover {
+            transform: translateY(rem(-8));
+        }
+        .file-info {
+            text-align: center;
+            line-height: rem(40);
+            padding: rem(15) rem(20);
+            background-color: hsl(0, 3%, 21%);
+            border-radius: rem(8) rem(8) 0 0;
+            border-color: var(--grayer);
+            border-style: solid;
+            border-width: rem(1);
+            i {
+                margin: rem(12) 0 rem(12) 0;
+                font-size: rem(40);
+            }
+        }
+        .download-button {
+            padding: rem(8) rem(20);
+            background-color: hsl(0, 2%, 17%);
+            border-radius: 0 0 rem(8) rem(8);
+            text-align: center;
+            border-color: var(--grayer);
+            border-style: solid;
+            border-width: rem(1);
+            a,
+            i {
+                margin: 0 rem(4);
+                font-size: rem(18);
+            }
+        }
+    }
+}

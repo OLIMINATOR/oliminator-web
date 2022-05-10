@@ -6,6 +6,7 @@ module.exports = defineConfig({
             input: {
                 main: "./index.html",
                 sitemap: "./sitemap.html",
+                minecraft: "./minecraft/index.html",
                 // ...
                 // List all files you want in your build
             },

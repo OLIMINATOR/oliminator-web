@@ -10,6 +10,17 @@ async function getINFO() {
     );
 }
 
+const mc_api_url =
+    "https://api.mojang.com/users/profiles/minecraft/oliver90001";
+async function mcINFO() {
+    const response = await fetch(mc_api_url);
+    const data = await response.json();
+    console.log(data);
+    document.getElementById("uuid").innerHTML = data.id;
+    //data.id.
+}
+mcINFO();
+
 function sendEmail() {
     window.location = "mailto:xyz@yourapplicationdomain.com";
 }
