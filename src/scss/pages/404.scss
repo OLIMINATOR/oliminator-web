@@ -1,0 +1,27 @@
+@use "../util" as *;
+
+.errrror {
+    margin-top: rem(120);
+    transition: 2s;
+    .macka {
+        p {
+            display: none;
+        }
+        img {
+            display: none;
+        }
+        &:hover {
+            h1 {
+                color: beige;
+            }
+            p {
+                display: block;
+                position: relative;
+            }
+            img {
+                display: block;
+                position: relative;
+            }
+        }
+    }
+}
