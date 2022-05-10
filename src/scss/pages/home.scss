@@ -107,6 +107,25 @@
     }
 }
 
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include breakpoint(medium) {
+        flex-direction: row;
+    }
+    margin-top: rem(335);
+    @include breakpoint(medium) {
+        margin-top: rem(435);
+    }
+    h2 {
+        text-shadow: 4px 4px 0px #2c2a2a;
+    }
+    a {
+        font-size: larger;
+    }
+}
+
 .card-container {
     margin-top: rem(55);
     display: flex;
@@ -175,5 +194,3 @@
         }
     }
 }
-
-/* From uiverse.io by @Mike11jr */

@@ -67,3 +67,35 @@ i {
     font-size: medium;
     display: block;
 }
+
+button {
+    cursor: pointer;
+    margin-top: rem(25);
+    background-color: #f91b48;
+    position: relative;
+    padding: rem(10) rem(40);
+    float: left;
+    border-radius: rem(3);
+    font-size: rem(20);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-bottom: 5px solid #cb173b;
+    text-shadow: 0px -2px #d3153b;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+
+    &:hover {
+        -webkit-transform: translate(0px, 5px);
+        -ms-transform: translate(0px, 5px);
+        transform: translate(0px, 5px);
+        border-bottom: 1px solid #cb173b;
+    }
+
+    &:active {
+        -webkit-transform: translate(0px, 5px);
+        -ms-transform: translate(0px, 5px);
+        transform: translate(0px, 5px);
+        border-bottom: 1px solid #cb173b;
+    }
+}

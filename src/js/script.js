@@ -9,3 +9,7 @@ async function getINFO() {
             data.data.discord_user.discriminator
     );
 }
+
+function sendEmail() {
+    window.location = "mailto:xyz@yourapplicationdomain.com";
+}
